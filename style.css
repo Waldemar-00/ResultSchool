@@ -8,3 +8,10 @@ p {
 span {
     margin: 0 20px 0 20px;
 }
+ul {
+    list-style: none;
+}
+div img {
+    display: block;
+    margin: 0 auto;
+}
