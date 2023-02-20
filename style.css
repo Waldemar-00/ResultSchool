@@ -32,3 +32,22 @@ div img {
     color: green;
     text-align: center;
 }
+.div-work {
+    margin: 50px 0 0 25%;
+}
+.div-work table {
+    margin: 0 0 0 100px;
+}
+.table-work {
+    width: 550px;
+    text-align: center;
+}
+.table-work tr {
+    height: 60px;
+    font-size: 1.3rem;
+}
+.table-work td {
+    color: rgb(87, 87, 218);
+    font-size: 1.2rem;
+    height: 50px;
+}
