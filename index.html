@@ -13,81 +13,90 @@
     </head>
 
     <body>
-        <div><img src="my.ico" alt="my photo"></div>
-        <h1><em>Uladzimir Martynchyk</em></h1>
-        <hr size="7px" noshade color="red" width="50%">
-        <p><span><strong>HTML</strong></span><span><strong>CSS</strong></span><span><strong>JavaScript</strong></span>
-        </p>
-        <div><img src="html_css_js.png" alt="HTML, CSS, JS"></div>
-        <p>I am learning <em><strong>HTML CSS JS</strong></em> on different platforms</p>
-        <ul class="ul-anchor">
-            <li>
-                <p><a href="https://github.com/Waldemar-00" target="_blank">My page on GitHub</a></p>
-            </li>
-        </ul>
-        <div class="soft-skill">
-            <h2>My hobby:</h2>
-            <ul class="hobby">
-                <li>Neurophysiology</li>
-                <li>Medicine</li>
-                <li>Physical culture</li>
-                <li>Social interactions</li>
+        <header>
+            <div><img src="my.ico" alt="my photo"></div>
+            <h1><em>Uladzimir Martynchyk</em></h1>
+            <hr>
+            <p><span><strong>HTML</strong></span><span><strong>CSS</strong></span><span><strong>JavaScript</strong></span>
+            </p>
+            <div><img src="html_css_js.png" alt="HTML, CSS, JS"></div>
+        </header>
+        <main>
+            <p>I am learning <em><strong>HTML CSS JS</strong></em> on different platforms</p>
+            <ul class="ul-anchor">
+                <li>
+                    <p><a href="https://github.com/Waldemar-00" target="_blank">My page on GitHub</a></p>
+                </li>
             </ul>
-        </div>
-        <div class="div-work">
-            <h2>My experience:</h2>
-            <table class="table-work">
-                <thead>
-                    <tr>
-                        <th>name work</th>
-                        <th>position</th>
-                        <th>year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Typesetter</td>
-                        <td>junior</td>
-                        <td>2021</td>
-                    </tr>
-                    <tr>
-                        <td>Frontend-developer</td>
-                        <td>junior</td>
-                        <td>2022</td>
-                    </tr>
-                    <tr>
-                        <td>Frontend-developer</td>
-                        <td>junior</td>
-                        <td>2023</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <hr color="brown" width="45%" noshade size="3px">
-        <form id="employer" method='post' action="https://jsonplaceholder.typicode.com/posts" target="_blank" enctype="application/x-www-form-urlencoded" autocomplete="on">
-            <fieldset>
-                <legend>Contact with me</legend>
-                <div class="for-wrapper">
-                    <div>
-                        <label for="name">Name</label>
-                        <input id='name' name="name" type="text" required>
+            <div class="soft-skill">
+                <h2>My hobby:</h2>
+                <ul class="hobby">
+                    <li>Neurophysiology</li>
+                    <li>Medicine</li>
+                    <li>Physical culture</li>
+                    <li>Social interactions</li>
+                </ul>
+            </div>
+            <div class="div-work">
+                <h2>My experience:</h2>
+                <table class="table-work">
+                    <thead>
+                        <tr>
+                            <th>name work</th>
+                            <th>position</th>
+                            <th>year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Typesetter</td>
+                            <td>junior</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>Frontend-developer</td>
+                            <td>junior</td>
+                            <td>2022</td>
+                        </tr>
+                        <tr>
+                            <td>Frontend-developer</td>
+                            <td>junior</td>
+                            <td>2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr class="brown">
+        </main>
+        <footer>
+            <form id="employer" method='post' action="https://jsonplaceholder.typicode.com/posts" target="_blank"
+                enctype="application/x-www-form-urlencoded" autocomplete="on">
+                <fieldset>
+                    <legend>Contact with me</legend>
+                    <div class="for-wrapper">
+                        <div>
+                            <label for="name">Name</label>
+                            <input id='name' name="name" type="text" required>
+                        </div>
+                        <div>
+                            <label for="email">Email @</label>
+                            <input id='email' name="email" type="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone number</label>
+                            <input id='phone' name="phone" type="tel" required>
+                        </div>
+                        <div>
+                            <div><label for="area">Massege</label></div>
+                            <textarea id="area" name="textarea" cols="110" rows="7"
+                                placeholder="Write your messege..."></textarea>
+                            <button type="submit">Submit form</button>
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">Email @</label>
-                        <input id='email' name="email" type="email" required>
-                    </div>
-                    <div>
-                        <label for="phone">Phone number</label>
-                        <input id='phone' name="phone" type="tel" required>
-                    </div>
-                    <div>
-                        <div><label for="area">Massege</label></div>
-                        <textarea id="area" name="textarea" cols="110" rows="7" placeholder="Write your messege..."></textarea>
-                        <button type="submit">Submit form</button>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
+                </fieldset>
+            </form>
+        </footer>
+
     </body>
 
 </html>
