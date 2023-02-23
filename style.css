@@ -1,15 +1,24 @@
 * {
     color: rgb(56, 55, 55);
+    font-family: Geneva, sans-serif;
 }
 h1 {
     text-align: center;
 }
-p {
+header p {
     font-size: 1.3rem;
     text-align: center;
+    font-weight: 900;
+    word-spacing: 20px;
 }
-span {
-    margin: 0 20px 0 20px;
+main p {
+    text-align: center;
+    font-size: 1.3rem;
+    word-spacing: 7px;
+}
+main p span {
+    font-weight: 900;
+    font-style: italic;
 }
 .ul-anchor {
     list-style: none;
@@ -79,6 +88,7 @@ form input, textarea {
     margin-left: 50px;
 }
 form button {
+    cursor: pointer;
     display: inline-block;
     position: relative;
     left: 50px;
