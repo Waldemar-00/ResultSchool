@@ -1,7 +1,14 @@
 * {
     color: rgb(56, 55, 55);
     font-family: Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+} 
 h1 {
     text-align: center;
 }
@@ -27,9 +34,11 @@ main p span {
     text-decoration: none;
     color: brown;
 }
-div img {
-    display: block;
+.img {
+    padding-top: 20px;
     margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
 }
 .soft-skill {
     margin: 50px 0 0 25%;
@@ -44,12 +53,9 @@ div img {
 .div-work {
     margin: 50px 0 0 25%;
 }
-.div-work table {
-    margin: 0 0 0 100px;
-}
 .table-work {
-    width: 550px;
-    text-align: center;
+    max-width: 90%;
+    margin: 0 0 0 200px;
 }
 .table-work tr {
     height: 60px;
@@ -70,7 +76,7 @@ legend {
     font-weight: bold;
 }
 form {
-    width: 75%;
+    max-width: 75%;
     margin: 50px auto 0;
 }
 form label {
@@ -83,6 +89,10 @@ form div {
 form input, textarea {
     border: 1px solid rgb(56, 55, 55);
     border-radius: 4px;
+}
+textarea {
+    max-width: 80%;
+    resize: none;
 }
 .for-wrapper {
     margin-left: 50px;
@@ -101,15 +111,22 @@ form button {
     border-radius: 4px;
     background-color: white;
 }
-hr {
+.hr {
     height: 7px;
-    background-color: red;
     width: 50%;
-    box-shadow: none;
-    border: 1px solid red;
     border-radius: 2px;
+    margin: 10px auto 20px auto;
 }
-.brown {
-    background-color: brown;
-    border: 1px solid brown;
+.hr span {
+    display: inline-block;
+    width: 32%;
+}
+.hr-o {
+    background-color: #E54D26;
+}
+.hr-y {
+    background-color: #E9CA32;
+}
+.hr-b {
+    background-color: #006EBA;
 }
