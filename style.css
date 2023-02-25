@@ -5,6 +5,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    color:#E54D26;
+    text-decoration: none;
+    transition: all .4s;
+}
+a:link {
+    color: #E54D26;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    font-size: 1.5rem;
+}
+a:visited {
+    color: #006EBA;
+}
+a:active {
+    color: #E9CA32;
+}
 .container {
     max-width: 90%;
     margin: 0 auto;
@@ -19,6 +38,7 @@ header p {
     word-spacing: 20px;
 }
 main p {
+    height: 40px;
     text-align: center;
     font-size: 1.3rem;
     word-spacing: 7px;
@@ -28,11 +48,8 @@ main p span {
     font-style: italic;
 }
 .ul-anchor {
+    margin-top: 10px;
     list-style: none;
-}
-.ul-anchor a {
-    text-decoration: none;
-    color: brown;
 }
 .img {
     padding-top: 20px;
@@ -43,13 +60,22 @@ main p span {
 .soft-skill {
     margin: 50px 0 0 25%;
 }
+.hobby {
+    margin: 50px 0 0 25%;
+}
 .hobby li {
     display: inline-block;
+    position: relative;
+    left: -302px;
     padding: 10px 25px;
     font-size: 1.4rem;
     color: green;
     text-align: center;
 }
+table thead th {
+    padding: 20px;
+    text-align: center;
+}  
 .div-work {
     margin: 50px 0 0 25%;
 }
@@ -64,13 +90,16 @@ main p span {
 .table-work td {
     color: rgb(87, 87, 218);
     font-size: 1.2rem;
+    text-align: center;
     height: 50px;
+    padding: 20px;
 }
 fieldset {
     border-radius: 4px;
     border: 1px solid #000;
 }
 legend {
+    font-family: inherit;
     font-size: 1.3rem;
     color: #000;
     font-weight: bold;
@@ -98,6 +127,7 @@ textarea {
     margin-left: 50px;
 }
 form button {
+    font-family: inherit;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -110,6 +140,18 @@ form button {
     border: 1px solid rgb(56, 55, 55);
     border-radius: 4px;
     background-color: white;
+}
+form button:hover {
+    transition: all 0.4s;
+    background-color: rgb(216, 216, 216);
+    color: rgb(56, 55, 55);
+    font-size: 1rem;
+}
+form button:active {
+    transition: all 0.2s;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2rem;
 }
 .hr {
     height: 7px;
