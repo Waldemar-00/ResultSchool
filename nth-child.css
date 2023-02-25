@@ -1,0 +1,37 @@
+.ul-lorem {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ul-lorem li a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+.ul-lorem li:nth-child(2n + 1):hover {
+    background-color: #fff;
+}
+.ul-lorem li:nth-child(2n):hover {
+    background-color: rgb(247, 132, 132);
+}
+.ul-lorem li {
+    margin-top: 10px;
+    background-color: rgb(255, 209, 217);
+}
+.ul-lorem li:nth-child(2n + 1) {
+    background-color: rgb(245, 224, 184);
+}
+.ul-lorem li:first-child {
+    border: none;
+    background-color: #fff;
+}
+table {
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+table td {
+    padding-bottom: 10px;
+    text-align: right;
+}
+table td:hover {
+    background-color: rgb(224, 216, 216);
+}
