@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100%;
+    margin: auto;
+}
 a {
     color:#E54D26;
     text-decoration: none;
@@ -77,11 +81,11 @@ table thead th {
     text-align: center;
 }  
 .div-work {
-    margin: 50px 0 0 25%;
+    margin: 3% 0 0 25%;
 }
 .table-work {
     max-width: 90%;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 17%;
 }
 .table-work tr {
     height: 60px;
@@ -94,19 +98,20 @@ table thead th {
     height: 50px;
     padding: 20px;
 }
+form {
+    max-width: 50%;
+    margin: 5% auto 10% auto;
+}
 fieldset {
     border-radius: 4px;
     border: 1px solid #000;
 }
 legend {
+    text-align: center;
     font-family: inherit;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #000;
     font-weight: bold;
-}
-form {
-    max-width: 75%;
-    margin: 50px auto 0;
 }
 form label {
     font-size: 1.2rem;
@@ -118,40 +123,48 @@ form div {
 form input, textarea {
     border: 1px solid rgb(56, 55, 55);
     border-radius: 4px;
+    outline: none;
+}
+form input:focus, textarea:focus {
+    transition: all 0.1s;
+    border: 2px solid rgb(56, 55, 55);
+    font-family: inherit;
 }
 textarea {
     max-width: 80%;
     resize: none;
 }
 .for-wrapper {
-    margin-left: 50px;
+    margin: 5px 0 5px 100px;
 }
 form button {
     font-family: inherit;
     cursor: pointer;
     display: inline-block;
     position: relative;
-    left: 50px;
-    bottom: 10px;
+    left: 60%;
+    bottom: 36px;
     font-size: 1.2rem;
     font-weight: 550;
-    width: 200px;
-    height: 30px;
+    width: 27%;
+    height: 33px;
     border: 1px solid rgb(56, 55, 55);
     border-radius: 4px;
     background-color: white;
 }
 form button:hover {
-    transition: all 0.4s;
+    transition: all 0.2s;
     background-color: rgb(216, 216, 216);
     color: rgb(56, 55, 55);
     font-size: 1rem;
+    border: 2px solid rgb(56, 55, 55);
 }
 form button:active {
     transition: all 0.2s;
     background-color: #fff;
     color: #000;
     font-size: 1.2rem;
+    border: 2px solid rgb(56, 55, 55);
 }
 .hr {
     height: 7px;
@@ -171,4 +184,31 @@ form button:active {
 }
 .hr-b {
     background-color: #006EBA;
+}
+/*move box*/
+.wrapp-box {
+    width: 80%;
+    margin: auto;
+}
+.relative {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    border: 2px solid rebeccapurple;
+}
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rebeccapurple;
+}
+.box:hover {
+    left: 30px;
+    top: 20px;
+}
+.box:active {
+    left: 100px;
+    top: 20px;
 }
